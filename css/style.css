@@ -1,0 +1,375 @@
+ 
+/* ================================section-title-styling================== */
+.section-title {
+  position: relative;
+}
+.section-title h5 {
+  font-weight: 500;
+  position: relative;
+  display: inline-block;
+  text-transform: uppercase;
+  font-size: 16px;
+  line-height: 23px;
+  margin-bottom: 5px;
+}
+.section-title h5:before {
+  position: absolute;
+  content: "";
+  width: 45px;
+  height: 2px;
+  top: 12px;
+}
+.section-title .title-style-centred h5:after {
+  position: absolute;
+  content: "";
+  width: 45px;
+  height: 2px;
+  top: 12px;
+  left: 0;
+}
+.section-title h5:before {
+  background: #45b34a;
+}
+.section-title .title-style-centred h5:after {
+  background: #45b34a;
+}
+.section-title .title-style-centred h5 {
+padding: 0 55px 0 55px;
+color: #5a5a5a;
+}
+.section-title .title-style-centred p {
+padding: 0 20%;
+}
+.section-title .title-style-centred h5:before {
+right: 0;
+}
+.section-title h1.title,
+.section-title h2.title {
+  text-transform: capitalize;
+  position: relative;
+  display: block;
+  font-size: 40px;
+  line-height: 46px;
+  color: #222;
+  font-weight: 700;
+  font-family: "Playfair Display", serif;
+}
+.section-title h1.title span,
+.section-title h2.title span {
+  font-weight: 700;
+  font-family: "Playfair Display", serif;
+  letter-spacing: 1.2px;
+  color: #45b34a;
+}
+.ttm-row_packages{
+padding: 70px 0;
+}
+
+/* =====================section-title-style-ends================= */
+
+
+
+  
+  .pricing-btn-primary,
+  .pricing-btn-primary:focus {
+    height: 50px;
+    width: 200px;
+    font-size: 16px;
+    font-weight: 500;
+    display: inline-block;
+    cursor: pointer;
+    text-transform: capitalize;
+    background: #45b34a;
+    color: #000 !important;
+    outline: 0;
+    line-height: 24px;
+    border-radius: 10px;
+    border: none;
+    transition: 0.8s ease-in-out;
+  }
+  
+  .pricing-btn-primary:hover {
+    cursor: pointer;
+    background: transparent;
+    color: #45b34a;
+    border: 2px solid #45b34a;
+  }
+  
+  .pricing-btn-secondary,
+  .pricing-btn-secondary:focus {
+    height: 50px;
+    width: 200px;
+    font-size: 16px;
+    font-weight: 500;
+    display: inline-block;
+    cursor: pointer;
+    text-transform: capitalize;
+    background: #f0faf2;
+    color: #000 !important;
+    outline: 0;
+    line-height: 24px;
+    border-radius: 10px;
+    border: none;
+    transition: 0.8s ease-in-out;
+  }
+  
+  .pricing-btn-secondary:hover {
+    cursor: pointer;
+    background-color: #45b34a;
+    color: #f0faf2 !important;
+  }
+  
+  .plan-btn {
+    height: 50px;
+    width: 200px;
+    font-size: 16px;
+    font-weight: 500;
+    display: inline-block;
+    cursor: pointer;
+    text-transform: capitalize;
+    background: #45b34a;
+    color: #fff !important;
+    outline: none !important;
+    line-height: 24px;
+    border-radius: 20px;
+    border: none !important;
+    transition: 0.8s ease-in-out;
+  }
+  
+  .plan-btn:hover {
+    cursor: pointer;
+    background-color: #1f2737;
+    border: none;
+    outline: none;
+  }
+  
+  .section-packages {
+    position: relative;
+    margin-top: 50px;
+    transition: height 1s ease-in-out;
+    background-image: url(../assets/pricing.svg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100%;
+    width: 100%;
+    padding: 5.25rem;
+    padding-bottom: 1rem !important;
+  }
+  
+  .price-packages {
+    position: relative;
+    background-color: #fff;
+    padding: 24px 16px;
+    border-radius: 20px;
+    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+    min-height: 790px;
+  }
+  
+  .standard {
+    border-radius: 0px 0px 20px 20px;
+  }
+  
+  .pricing-table-btn {
+    position: absolute;
+    bottom: 0;
+    left: 50%;
+    transform: translate(-50%, 0);
+  }
+  .pricing-table-btn button a{
+    text-decoration: none;
+  }
+  
+  .price-packages .best-value {
+    height: 40px;
+    width: 100%;
+    background-color: #45b34a;
+    position: absolute;
+    top: -2.5rem;
+    left: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    border-radius: 10px 10px 0px 0px;
+  }
+  
+  .price-packages .best-value P {
+    height: 100%;
+    color: #fff;
+    text-transform: capitalize;
+    font-weight: 500;
+    margin: 0;
+    line-height: 40px;
+  }
+  .package_table {
+    padding-bottom: 0 !important;
+  }
+  
+  .package {
+    border-bottom: 2px dashed #828282;
+    margin-bottom: 1.125rem;
+  }
+  .package h3 {
+    font-size: 1.5rem;
+    text-align: center;
+    text-transform: capitalize;
+  }
+  .package p.info {
+    text-align: center;
+    color: #000 !important;
+  }
+  
+  .package p.pricing {
+    color: #45b34a;
+    text-align: center;
+  }
+  .package p.pricing span {
+    font-size: 24px;
+    font-weight: 600;
+  }
+  .package p.pricing sup.Rs {
+    color: #45b34a;
+    font-size: 14px;
+    font-weight: 600;
+  }
+  .package p.pricing span.month {
+    font-size: 16px;
+  }
+  
+  .package-content .plan-btn {
+    margin-bottom: 18px;
+  }
+  
+  .price-btn {
+    position: absolute;
+    bottom: 0;
+    left: 50%;
+    transform: translate(-50%, 0);
+  }
+  .package-content .package-list {
+    margin-bottom: 3.5rem;
+  }
+  
+  .package-content .package-list h6 {
+    position: relative;
+    text-transform: capitalize;
+    font-size: 14px;
+    font-weight: 500;
+    padding-left: 0.875rem;
+    margin-bottom: 8px;
+    text-align: left;
+    padding-left: 1.5rem;
+    line-height: 22px;
+  }
+  
+  .package-content .package-list h6:before {
+    content: " ";
+    position: absolute;
+    top: 6px;
+    left: 0;
+    height: 8px;
+    width: 8px;
+    border-radius: 50%;
+    background-color: #45b34a;
+  }
+  
+  .package-content .package-list .see-more.show .label-content {
+    height: 100%;
+  }
+  
+  
+  .download-btn {
+    height: 45px;
+    width: 220px;
+    font-size: 16px;
+    font-weight: 500;
+    display: inline-block;
+    cursor: pointer;
+    text-transform: capitalize;
+    background: #45b34a;
+    outline: none !important;
+    line-height: 24px;
+    border-radius: 20px;
+    border: none !important;
+    transition: 0.5s ease-in-out;
+    position: absolute;
+    top: 32%;
+    right: 0;
+    transform: translate(0, -32%);
+    padding: 0 1rem;
+  }
+  
+  .download-btn a {
+    color: #fff;
+    text-decoration: none;
+  }
+  
+  
+  .download-btn:hover {
+    cursor: pointer;
+    background-color: #1f2737;
+  }
+  .download-btn a:hover{
+    text-decoration: none;
+    color:white;
+  }
+  
+  .see-more-btn {
+    display: flex;
+    width: 100%;
+    align-items: center;
+    gap: 0.2rem;
+    flex-direction: row;
+    font-size: 1rem;
+    color: #45b34a;
+    font-weight: 400;
+    border: none;
+    outline: none;
+    background: transparent;
+    text-transform: capitalize;
+    transition: all 0.5s ease-in-out;
+  }
+  
+  #see-less-btn,
+  #see-less-btns {
+    display: none;
+  }
+  
+  .see-more-btn span i {
+    font-size: 1.2rem;
+    font-weight: bold;
+  }
+  
+  .see-less span i {
+    font-size: 1.2rem;
+    font-weight: bold;
+    transform: rotate(180deg);
+  }
+  
+  .see-more-btn:hover,
+  .see-more-btn:focus,
+  .see-more-btn:active {
+    cursor: pointer;
+    border: none;
+    outline: none;
+  }
+  
+  .see-more-btn span {
+    font-size: 1.2rem;
+    font-weight: 600;
+  }
+  
+  
+  
+  .vat p {
+    font-size: 0.875rem;
+    font-weight: 400;
+    font-style: italic;
+    line-height: normal;
+  }
+  
+  .vat p.charge {
+    margin-bottom: 8px;
+  }
+ 
+ 

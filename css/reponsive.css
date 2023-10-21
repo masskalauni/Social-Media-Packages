@@ -1,0 +1,134 @@
+
+  @media (max-width: 1200px) {
+    .container {
+      padding: 0 15px !important;
+    }
+  
+    .section-packages {
+      padding: 0;
+    }
+  
+  }
+  
+  @media (max-width: 1150px) {
+    .price-packages {
+      min-height: 800px;
+    }
+  
+    .vat {
+      padding-left: 1rem;
+    }
+  }
+  
+  @media (max-width: 1120px) {
+    .layer-image {
+      bottom: -72%;
+      left: 0;
+      height: 280px;
+    }
+  }
+  
+  @media (max-width: 1050px) {
+    .price-packages {
+      min-height: 1070px;
+    }
+  }
+  
+  @media (max-width: 991px) {
+    .section-packages {
+      background-image: none;
+    }
+  
+    .section-packages:after {
+      display: none;
+    }
+    .section-packages img.bg-img {
+      display: none;
+    }
+  
+    .web-basic {
+      margin-top: 2.5rem;
+    }
+  
+    .standard,
+    .premium {
+      margin-top: 2.5rem;
+    }
+  
+    .left-form_content {
+      border: none;
+      padding: 0;
+    }
+  
+    .right-form_content {
+      padding: 0;
+    }
+    .download-btn {
+      position: relative;
+      transform: translate(0, 0);
+    }
+    .price-packages {
+      min-height: 690px;
+    }
+  
+    .vat {
+      padding: 0 1rem;
+    }
+  
+    
+    .layer-image {
+      display: none;
+    }
+  
+  
+  }
+  
+  @media (max-width: 768px) {
+    .mt-50 {
+      margin: 0 !important;
+    }
+    .package-content .standard-list,
+    .package-content .premium-list {
+      margin-bottom: 1rem !important;
+    }
+    .section-packages {
+      margin-bottom: 0rem;
+    }
+    .gap-20 {
+      gap: 0;
+      row-gap:1.25rem;
+    }
+  
+    .premium {
+      margin-top: 2.5rem;
+    }
+  
+    .price-packages {
+      min-height: 0;
+      height: 100%;
+    }
+  
+    .vat {
+      margin-top: 4rem;
+    }
+  
+    .vat p {
+      font-size: 0.75rem;
+    }
+  
+    .smm-package {
+      margin-top: 0 !important;
+    }
+  
+  }
+  
+  @media (max-width: 640px) {
+    .price-packages {
+      min-height: 0;
+      height: 100%;
+    }
+    .package-content .package-list {
+      margin-bottom: 3.5rem;
+    }
+  }
+  
